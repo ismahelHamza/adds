@@ -1,0 +1,36 @@
+body{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+div{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+button{
+    width: 100px;
+    height: 40px;
+    font-size: 1rem;
+    border: 1px solid green;
+    color: green;
+    background-color: transparent;
+    transition: all 0.4s;
+    cursor: pointer;
+    border-radius: 5px;
+}
+button:hover{
+    background-color: green;
+    color: white;
+}
+.min{
+    border: 1px solid red;
+    color: red;
+    margin: 5px;
+}
+.min:hover{
+    background-color: red;
+    color: white;
+}
